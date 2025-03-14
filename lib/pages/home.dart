@@ -19,6 +19,15 @@ class HomePage extends StatelessWidget {
             onTap: () => (
               Navigator.pushNamed(context, '/counter')
             ),
+          ),
+          ListTile(
+            title: Text("Contenedores Page"),
+            subtitle: Text("Contenedores"),
+            leading: Icon(Icons.alarm_off_outlined),
+            trailing: Icon(Icons.arrow_forward_ios),
+            onTap: () => (
+              Navigator.pushNamed(context, '/contenedores')
+            ),
           )
         ],
       ),

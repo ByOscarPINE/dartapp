@@ -1,3 +1,4 @@
+import 'package:dartapp/pages/contenedores.dart';
 import 'package:dartapp/pages/counter.dart';
 import 'package:dartapp/pages/home.dart';
 import 'package:flutter/material.dart';
@@ -17,6 +18,7 @@ class MainApp extends StatelessWidget {
       routes: {
         '/home': (context) => HomePage(),
         '/counter': (context) => CounterPage(),
+        '/contenedores': (context) => ContenedoresPage(),
       },
       theme: ThemeData(
         appBarTheme: const AppBarTheme(
